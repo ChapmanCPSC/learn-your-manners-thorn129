@@ -13,6 +13,16 @@
 		2762E9591CC492260009E8E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9581CC492260009E8E8 /* Assets.xcassets */; };
 		2762E95C1CC492260009E8E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2762E95A1CC492260009E8E8 /* LaunchScreen.storyboard */; };
 		2762E9641CC4A1F60009E8E8 /* DataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762E9631CC4A1F60009E8E8 /* DataTableViewController.swift */; };
+		2762E96F1CC4A5390009E8E8 /* asking-permission.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9651CC4A5390009E8E8 /* asking-permission.jpg */; };
+		2762E9701CC4A5390009E8E8 /* Chew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9661CC4A5390009E8E8 /* Chew.jpg */; };
+		2762E9711CC4A5390009E8E8 /* ExcuseMe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9671CC4A5390009E8E8 /* ExcuseMe.jpg */; };
+		2762E9721CC4A5390009E8E8 /* Interrupt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9681CC4A5390009E8E8 /* Interrupt.jpg */; };
+		2762E9731CC4A5390009E8E8 /* knock_knock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9691CC4A5390009E8E8 /* knock_knock.jpg */; };
+		2762E9741CC4A5390009E8E8 /* Mock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E96A1CC4A5390009E8E8 /* Mock.jpg */; };
+		2762E9751CC4A5390009E8E8 /* Please.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E96B1CC4A5390009E8E8 /* Please.jpg */; };
+		2762E9761CC4A5390009E8E8 /* Shake Hands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E96C1CC4A5390009E8E8 /* Shake Hands.jpg */; };
+		2762E9771CC4A5390009E8E8 /* Sneeze.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E96D1CC4A5390009E8E8 /* Sneeze.jpg */; };
+		2762E9781CC4A5390009E8E8 /* ThankYou.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2762E96E1CC4A5390009E8E8 /* ThankYou.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +34,16 @@
 		2762E95B1CC492260009E8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2762E95D1CC492260009E8E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2762E9631CC4A1F60009E8E8 /* DataTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataTableViewController.swift; sourceTree = "<group>"; };
+		2762E9651CC4A5390009E8E8 /* asking-permission.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asking-permission.jpg"; sourceTree = "<group>"; };
+		2762E9661CC4A5390009E8E8 /* Chew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chew.jpg; sourceTree = "<group>"; };
+		2762E9671CC4A5390009E8E8 /* ExcuseMe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ExcuseMe.jpg; sourceTree = "<group>"; };
+		2762E9681CC4A5390009E8E8 /* Interrupt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Interrupt.jpg; sourceTree = "<group>"; };
+		2762E9691CC4A5390009E8E8 /* knock_knock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = knock_knock.jpg; sourceTree = "<group>"; };
+		2762E96A1CC4A5390009E8E8 /* Mock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mock.jpg; sourceTree = "<group>"; };
+		2762E96B1CC4A5390009E8E8 /* Please.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Please.jpg; sourceTree = "<group>"; };
+		2762E96C1CC4A5390009E8E8 /* Shake Hands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Shake Hands.jpg"; sourceTree = "<group>"; };
+		2762E96D1CC4A5390009E8E8 /* Sneeze.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sneeze.jpg; sourceTree = "<group>"; };
+		2762E96E1CC4A5390009E8E8 /* ThankYou.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ThankYou.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +77,22 @@
 			isa = PBXGroup;
 			children = (
 				2762E94E1CC492260009E8E8 /* AppDelegate.swift */,
+				2762E9631CC4A1F60009E8E8 /* DataTableViewController.swift */,
 				2762E9521CC492260009E8E8 /* Main.storyboard */,
 				2762E9581CC492260009E8E8 /* Assets.xcassets */,
 				2762E95A1CC492260009E8E8 /* LaunchScreen.storyboard */,
 				2762E95D1CC492260009E8E8 /* Info.plist */,
 				2762E9551CC492260009E8E8 /* Assignment_4.xcdatamodeld */,
-				2762E9631CC4A1F60009E8E8 /* DataTableViewController.swift */,
+				2762E9651CC4A5390009E8E8 /* asking-permission.jpg */,
+				2762E9661CC4A5390009E8E8 /* Chew.jpg */,
+				2762E9671CC4A5390009E8E8 /* ExcuseMe.jpg */,
+				2762E9681CC4A5390009E8E8 /* Interrupt.jpg */,
+				2762E9691CC4A5390009E8E8 /* knock_knock.jpg */,
+				2762E96A1CC4A5390009E8E8 /* Mock.jpg */,
+				2762E96B1CC4A5390009E8E8 /* Please.jpg */,
+				2762E96C1CC4A5390009E8E8 /* Shake Hands.jpg */,
+				2762E96D1CC4A5390009E8E8 /* Sneeze.jpg */,
+				2762E96E1CC4A5390009E8E8 /* ThankYou.jpg */,
 			);
 			path = "Assignment 4";
 			sourceTree = "<group>";
@@ -126,8 +156,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2762E95C1CC492260009E8E8 /* LaunchScreen.storyboard in Resources */,
+				2762E9731CC4A5390009E8E8 /* knock_knock.jpg in Resources */,
+				2762E9741CC4A5390009E8E8 /* Mock.jpg in Resources */,
 				2762E9591CC492260009E8E8 /* Assets.xcassets in Resources */,
+				2762E9721CC4A5390009E8E8 /* Interrupt.jpg in Resources */,
+				2762E9711CC4A5390009E8E8 /* ExcuseMe.jpg in Resources */,
+				2762E9761CC4A5390009E8E8 /* Shake Hands.jpg in Resources */,
+				2762E9701CC4A5390009E8E8 /* Chew.jpg in Resources */,
 				2762E9541CC492260009E8E8 /* Main.storyboard in Resources */,
+				2762E96F1CC4A5390009E8E8 /* asking-permission.jpg in Resources */,
+				2762E9751CC4A5390009E8E8 /* Please.jpg in Resources */,
+				2762E9781CC4A5390009E8E8 /* ThankYou.jpg in Resources */,
+				2762E9771CC4A5390009E8E8 /* Sneeze.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
