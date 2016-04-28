@@ -10,10 +10,12 @@ import UIKit
 
 class EmailViewController: UIViewController {
     
+    @IBOutlet var emailText: UITextField!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        emailText.becomeFirstResponder()
         // Do any additional setup after loading the view.
     }
     
@@ -21,6 +23,11 @@ class EmailViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func submitButton(sender: AnyObject) {
+        var email = emailText.text
+    }
+    
     
     
 }

@@ -525,10 +525,10 @@
             </objects>
             <point key="canvasLocation" x="2011" y="-143"/>
         </scene>
-        <!--View Controller-->
+        <!--Email View Controller-->
         <scene sceneID="Vun-Ku-Chx">
             <objects>
-                <viewController id="RoR-dA-M9z" sceneMemberID="viewController">
+                <viewController id="RoR-dA-M9z" customClass="EmailViewController" customModule="Assignment_4" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="5dC-va-aL1"/>
                         <viewControllerLayoutGuide type="bottom" id="rPF-8P-9BP"/>
@@ -549,12 +549,13 @@
                                     <constraint firstAttribute="width" constant="218" id="NEA-Ac-d2R"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajn-nu-rlc">
                                 <rect key="frame" x="276" y="285" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
                                 <connections>
+                                    <action selector="submitButton:" destination="RoR-dA-M9z" eventType="touchUpInside" id="umu-AQ-Ahf"/>
                                     <segue destination="kK2-em-yOY" kind="show" id="XaF-50-Nhu"/>
                                 </connections>
                             </button>
@@ -569,6 +570,9 @@
                             <constraint firstItem="ajn-nu-rlc" firstAttribute="centerX" secondItem="jQA-A3-glH" secondAttribute="centerX" id="d8k-R2-Gzi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="emailText" destination="jQA-A3-glH" id="I4c-PL-iuj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nvN-ho-nqJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
