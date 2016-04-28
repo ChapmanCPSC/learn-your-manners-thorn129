@@ -605,10 +605,10 @@
             </objects>
             <point key="canvasLocation" x="408" y="468"/>
         </scene>
-        <!--View Controller-->
+        <!--Email Send View Controller-->
         <scene sceneID="fgJ-vg-Zht">
             <objects>
-                <viewController id="Ft8-vt-kzs" sceneMemberID="viewController">
+                <viewController id="Ft8-vt-kzs" customClass="EmailSendViewController" customModule="Assignment_4" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yrJ-Yv-gBt"/>
                         <viewControllerLayoutGuide type="bottom" id="srQ-pe-NJP"/>
