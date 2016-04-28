@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Table View Controller-->
@@ -13,6 +14,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <button key="tableFooterView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="DHP-ea-fUg">
+                            <rect key="frame" x="0.0" y="484" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" title="Email what you've learned!"/>
+                            <connections>
+                                <segue destination="Ft8-vt-kzs" kind="show" id="vPA-Qo-gJE"/>
+                            </connections>
+                        </button>
                         <sections>
                             <tableViewSection headerTitle="Manners" id="UPU-dN-eMe">
                                 <cells>
@@ -596,6 +605,67 @@
             </objects>
             <point key="canvasLocation" x="408" y="468"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="fgJ-vg-Zht">
+            <objects>
+                <viewController id="Ft8-vt-kzs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yrJ-Yv-gBt"/>
+                        <viewControllerLayoutGuide type="bottom" id="srQ-pe-NJP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ln9-3N-L3p">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4O-vi-fMf">
+                                <rect key="frame" x="100" y="101" width="46" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="xWI-L5-LkO">
+                                <rect key="frame" x="100" y="130" width="401" height="325"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Email Text" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hQv-WW-WH1">
+                                        <rect key="frame" x="0.0" y="0.0" width="401" height="325"/>
+                                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.040503102836879433" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="hQv-WW-WH1" firstAttribute="leading" secondItem="xWI-L5-LkO" secondAttribute="leading" constant="20" id="Aka-3L-rJQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="hQv-WW-WH1" secondAttribute="trailing" constant="20" id="Spy-Ow-JjI"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WYk-A8-rax">
+                                <rect key="frame" x="197" y="482" width="34" height="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="fRA-a9-B1O" kind="show" id="SNJ-64-4XP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iEm-pl-2Rx">
+                                <rect key="frame" x="380" y="482" width="36" height="30"/>
+                                <state key="normal" title="Send"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="iEm-pl-2Rx" firstAttribute="leading" secondItem="WYk-A8-rax" secondAttribute="trailing" constant="149" id="4oE-2n-G3M"/>
+                            <constraint firstItem="iEm-pl-2Rx" firstAttribute="leading" secondItem="WYk-A8-rax" secondAttribute="trailing" constant="149" id="GcU-Zu-bhB"/>
+                            <constraint firstItem="srQ-pe-NJP" firstAttribute="top" secondItem="WYk-A8-rax" secondAttribute="bottom" constant="88" id="Y3r-wS-pUG"/>
+                            <constraint firstItem="srQ-pe-NJP" firstAttribute="top" secondItem="iEm-pl-2Rx" secondAttribute="bottom" constant="88" id="ZO1-cb-7G1"/>
+                            <constraint firstItem="e4O-vi-fMf" firstAttribute="leading" secondItem="Ln9-3N-L3p" secondAttribute="leadingMargin" constant="20" id="k9L-o7-VcH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="iEm-pl-2Rx" secondAttribute="trailing" constant="20" id="p3e-qu-EM7"/>
+                            <constraint firstItem="WYk-A8-rax" firstAttribute="leading" secondItem="Ln9-3N-L3p" secondAttribute="leadingMargin" constant="20" id="wMt-YV-adh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nti-jD-LJP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="388" y="1217"/>
+        </scene>
     </scenes>
     <resources>
         <image name="ExcuseMe.jpg" width="728" height="546"/>
@@ -607,4 +677,7 @@
         <image name="asking-permission.jpg" width="183" height="275"/>
         <image name="knock_knock.jpg" width="768" height="433"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="SNJ-64-4XP"/>
+    </inferredMetricsTieBreakers>
 </document>
