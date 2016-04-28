@@ -11,7 +11,6 @@ import UIKit
 class DataTableViewController: UIViewController {
 
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +21,5 @@ class DataTableViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
 }

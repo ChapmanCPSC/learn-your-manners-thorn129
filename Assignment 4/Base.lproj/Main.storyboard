@@ -42,7 +42,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="4cm-6o-N6x" kind="show" id="SLb-wk-lY1"/>
+                                            <segue destination="4cm-6o-N6x" kind="show" identifier="Please" id="SLb-wk-lY1"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="v4J-ih-chs" style="IBUITableViewCellStyleDefault" id="J3Q-yT-Lgu">
@@ -678,6 +678,6 @@
         <image name="knock_knock.jpg" width="768" height="433"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="SNJ-64-4XP"/>
+        <segue reference="uq5-Wo-Dkd"/>
     </inferredMetricsTieBreakers>
 </document>
