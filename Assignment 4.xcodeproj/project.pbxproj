@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270D06371CD1941600050E9D /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270D06361CD1941600050E9D /* EmailViewController.swift */; };
 		2762E94F1CC492260009E8E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2762E94E1CC492260009E8E8 /* AppDelegate.swift */; };
 		2762E9541CC492260009E8E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2762E9521CC492260009E8E8 /* Main.storyboard */; };
 		2762E9571CC492260009E8E8 /* Assignment_4.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2762E9551CC492260009E8E8 /* Assignment_4.xcdatamodeld */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		270D06361CD1941600050E9D /* EmailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		2762E94B1CC492260009E8E8 /* Assignment 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2762E94E1CC492260009E8E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2762E9531CC492260009E8E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				2762E94E1CC492260009E8E8 /* AppDelegate.swift */,
 				2762E9631CC4A1F60009E8E8 /* DataTableViewController.swift */,
 				2762E9521CC492260009E8E8 /* Main.storyboard */,
+				270D06361CD1941600050E9D /* EmailViewController.swift */,
 				2762E9581CC492260009E8E8 /* Assets.xcassets */,
 				2762E95A1CC492260009E8E8 /* LaunchScreen.storyboard */,
 				2762E95D1CC492260009E8E8 /* Info.plist */,
@@ -180,6 +183,7 @@
 			files = (
 				2762E94F1CC492260009E8E8 /* AppDelegate.swift in Sources */,
 				2762E9641CC4A1F60009E8E8 /* DataTableViewController.swift in Sources */,
+				270D06371CD1941600050E9D /* EmailViewController.swift in Sources */,
 				2762E9571CC492260009E8E8 /* Assignment_4.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +334,7 @@
 				2762E9621CC492260009E8E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
